@@ -321,10 +321,8 @@
 	[items addObject:project];
 	[items addObject:branches];
 	[items addObject:remotes];
-	[items addObject:tags];
 	[items addObject:stashes];
 	[items addObject:submodules];
-	[items addObject:others];
 
 	[sourceView reloadData];
 	[sourceView expandItem:project];
